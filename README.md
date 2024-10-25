@@ -31,26 +31,26 @@ implement of "HFG-YOLO: A Real-Time Detector with High-level Feature Gathering f
               Basophil        144          5      0.905        0.8      0.962      0.741
 
 # Perdormance on COCO2017
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.495
- 
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.663
- 
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.539
- 
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.305
- 
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.548
- 
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.665
- 
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.378
- 
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.625
+	AveragePrecision(AP)@[IoU=0.50:0.95|area=all|maxDets=100]=0.495
 
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.676
- 
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.496
- 
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.735
- 
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.826
+	AveragePrecision(AP)@[IoU=0.50|area=all|maxDets=100]=0.663
+
+	AveragePrecision(AP)@[IoU=0.75|area=all|maxDets=100]=0.539
+
+	AveragePrecision(AP)@[IoU=0.50:0.95|area=small|maxDets=100]=0.305
+
+	AveragePrecision(AP)@[IoU=0.50:0.95|area=medium|maxDets=100]=0.548
+
+	AveragePrecision(AP)@[IoU=0.50:0.95|area=large|maxDets=100]=0.665
+
+	AverageRecall(AR)@[IoU=0.50:0.95|area=all|maxDets=1]=0.378
+
+	AverageRecall(AR)@[IoU=0.50:0.95|area=all|maxDets=10]=0.625
+
+	AverageRecall(AR)@[IoU=0.50:0.95|area=all|maxDets=100]=0.676
+
+	AverageRecall(AR)@[IoU=0.50:0.95|area=small|maxDets=100]=0.496
+
+	AverageRecall(AR)@[IoU=0.50:0.95|area=medium|maxDets=100]=0.735
+
+	AverageRecall(AR)@[IoU=0.50:0.95|area=large|maxDets=100]=0.826
