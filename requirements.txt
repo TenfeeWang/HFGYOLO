@@ -1,0 +1,11 @@
+numpy
+matplotlib
+opencv-python
+pillow>=7.1.2
+scipy
+torch>=1.8.0
+torchvision
+tqdm
+pandas
+seaborn
+thop
