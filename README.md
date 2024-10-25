@@ -32,25 +32,14 @@ implement of "HFG-YOLO: A Real-Time Detector with High-level Feature Gathering f
 
 # Perdormance on COCO2017
 	AveragePrecision(AP)@[IoU=0.50:0.95|area=all|maxDets=100]=0.495
-
 	AveragePrecision(AP)@[IoU=0.50|area=all|maxDets=100]=0.663
-
 	AveragePrecision(AP)@[IoU=0.75|area=all|maxDets=100]=0.539
-
 	AveragePrecision(AP)@[IoU=0.50:0.95|area=small|maxDets=100]=0.305
-
 	AveragePrecision(AP)@[IoU=0.50:0.95|area=medium|maxDets=100]=0.548
-
 	AveragePrecision(AP)@[IoU=0.50:0.95|area=large|maxDets=100]=0.665
-
 	AverageRecall(AR)@[IoU=0.50:0.95|area=all|maxDets=1]=0.378
-
 	AverageRecall(AR)@[IoU=0.50:0.95|area=all|maxDets=10]=0.625
-
 	AverageRecall(AR)@[IoU=0.50:0.95|area=all|maxDets=100]=0.676
-
 	AverageRecall(AR)@[IoU=0.50:0.95|area=small|maxDets=100]=0.496
-
 	AverageRecall(AR)@[IoU=0.50:0.95|area=medium|maxDets=100]=0.735
-
 	AverageRecall(AR)@[IoU=0.50:0.95|area=large|maxDets=100]=0.826
