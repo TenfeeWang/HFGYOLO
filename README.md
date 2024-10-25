@@ -2,7 +2,7 @@
 implement of "HFG-YOLO: A Real-Time Detector with High-level Feature Gathering for Blood Cell Detection"
 
 # Install
-!pip install -r requirements.txt
+	!pip install -r requirements.txt
 
 
 # Performance on BCCD Dataset
